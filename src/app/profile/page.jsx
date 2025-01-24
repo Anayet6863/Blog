@@ -7,7 +7,7 @@ const UserProfile = async () => {
     console.log(user);
   if (!user) {
     return (
-      <div className="min-h-screen items-center">
+      <div className="min-h-screen items-center flex justify-center bg-red-500 text-5xl text-white">
         <p>Please sign in or register!</p>
       </div>
     );
